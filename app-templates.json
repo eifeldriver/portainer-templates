@@ -7208,7 +7208,7 @@
 				{
 					"name": "TZ",
 					"label": "TZ",
-					"default": "Europe/Amsterdam",
+					"default": "Europe/Berlin",
 					"description": "specify a timezone to use, see this [list](https://en.wikipedia.org/wiki/List_of_tz_database_time_zones#List)."
 				}
 			],
@@ -7218,7 +7218,7 @@
 			"volumes": [
 			{
 				"container": "/config",
-				"bind": "/volume1/docker/python/config"
+				"bind": "/var/lib/docker/docker/python/config"
 			}
 			],
 			"restart_policy": "unless-stopped"
